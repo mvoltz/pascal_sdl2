@@ -1,6 +1,6 @@
 program window_render;
 
-{ https://www.freepascal-meets-sdl.net/window-and-renderer/ }
+// https://www.freepascal-meets-sdl.net
 
 uses 
     SDL2;

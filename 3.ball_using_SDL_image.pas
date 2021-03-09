@@ -1,11 +1,6 @@
 program ball_using_SDL_image;
 
-{ 
-    https://www.freepascal-meets-sdl.net/window-and-renderer/
-    https://www.freepascal-meets-sdl.net/surfaces-and-textures/ 
-    https://www.freepascal-meets-sdl.net/loading-and-rendering-a-bitmap-file/
-    https://www.freepascal-meets-sdl.net/chapter-4-imagestextures/
-}
+// https://www.freepascal-meets-sdl.net
 
 uses 
     SDL2, SDL2_image;

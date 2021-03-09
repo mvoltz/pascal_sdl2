@@ -1,10 +1,6 @@
 program ball_paddle;
 
-{ 
-    https://www.freepascal-meets-sdl.net/window-and-renderer/
-    https://www.freepascal-meets-sdl.net/surfaces-and-textures/ 
-    https://www.freepascal-meets-sdl.net/loading-and-rendering-a-bitmap-file/
-}
+// https://www.freepascal-meets-sdl.net
 
 uses 
     SDL2;

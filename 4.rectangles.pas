@@ -1,12 +1,6 @@
 program rectangles;
 
-{ 
-    https://www.freepascal-meets-sdl.net/window-and-renderer/
-    https://www.freepascal-meets-sdl.net/surfaces-and-textures/ 
-    https://www.freepascal-meets-sdl.net/loading-and-rendering-a-bitmap-file/
-    https://www.freepascal-meets-sdl.net/chapter-4-imagestextures/
-    https://www.freepascal-meets-sdl.net/rectangles-movement-and-scaling/
-}
+// https://www.freepascal-meets-sdl.net
 
 uses 
     SDL2, SDL2_image;
@@ -32,7 +26,7 @@ begin
     if SDL_CreateWindowAndRenderer(window_width, window_height, SDL_WINDOW_SHOWN, @sdlWindow1, @sdlRenderer) <> 0 then Halt;
 
     // set scaling quality
-    SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, 'nearest');
+    SDL_SetHint(SDL_HINT_RENDER_SCALE_QUALITY, 'anistropic');
 
     // create surface from file
     sdlSurface1 := SDL_LoadBMP('art/example_ball.bmp');
