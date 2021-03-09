@@ -12,7 +12,10 @@ fpc -Fusdl2 program_name.bas
 I use vim and vim-plug. Possibly useful vim-plug tools:
 
 Plug 'vim-airline/vim-airline'
+
 Plug 'vim-scripts/paredit.vim'
+
 Plug 'tpope/vim-sensible'
+
 Plug 'vim-scripts/fpc.vim'
 
