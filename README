@@ -1,0 +1,23 @@
+git clone https://github.com/PascalGameDevelopment/SDL2-for-Pascal.git
+
+fantastic site: https://www.freepascal-meets-sdl.net/
+
+To use the SDL2 libraries with freePascal, copy the contents of the ~/gits/SDL2... directory to your game directory structure somewhere.
+
+My dir structure:
+/root-game-folder
+    sdl2/
+
+Compile with:
+fpc -Fusdl2 program_name.bas
+
+I use vim and vim-plug. Possibly useful vim-plug tools:
+
+Plug 'vim-airline/vim-airline'
+Plug 'vim-scripts/paredit.vim'
+Plug 'tpope/vim-sensible'
+Plug 'vim-scripts/fpc.vim'
+
+}
+
+Any editor will do.  Visual Studio Code works well too.
